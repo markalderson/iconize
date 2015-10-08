@@ -8,8 +8,8 @@ A terminal command that allows you to create launchers for your Ubuntu apps.
 path/to/iconize -n "Sublime Text" -p /home/marco/Desktop/sublime/sublime -i /home/marco/Desktop/sublime/Icon/256x256/sublime_text.png
 ```
 
-**Note**: This works when you're inside the directory containing `iconize`.
-If you want to be able to launch `iconize` from any directory just type:
+**Note**: If you want to be able to use `iconize` from any directory without
+indicating the path to the executable, just type:
 
 ``` bash
 echo 'export PATH=$PATH:/path/to/iconize' >> ~/.bashrc
